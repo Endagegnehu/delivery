@@ -8,7 +8,7 @@ import java.util.Map;
 @Data
 public class Order {
     private User user;
-    private List<Food> order;
+    private List<Food> foods;
     private Restaurant restaurant;
     private Payment payment;
 }
