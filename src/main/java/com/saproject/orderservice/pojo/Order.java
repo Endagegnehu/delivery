@@ -9,6 +9,6 @@ import java.util.Map;
 public class Order {
     private User user;
     private List<Food> order;
-    private String restaurantName;
+    private Restaurant restaurant;
     private Payment payment;
 }
