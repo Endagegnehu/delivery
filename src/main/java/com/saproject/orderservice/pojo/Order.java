@@ -12,4 +12,5 @@ public class Order {
     private List<Food> foods;
     private Restaurant restaurant;
     private Payment payment;
+    private Dasher dasher;
 }
