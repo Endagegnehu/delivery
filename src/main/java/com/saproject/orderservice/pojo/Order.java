@@ -7,6 +7,7 @@ import java.util.Map;
 
 @Data
 public class Order {
+    private Long id;
     private User user;
     private List<Food> foods;
     private Restaurant restaurant;
