@@ -6,6 +6,6 @@ import lombok.Data;
 public class Payment {
     private String cardNumber;
     private String expireMonth;
-    private String expireYear
+    private String expireYear;
     private String ccv;
 }
